@@ -1,0 +1,51 @@
+/* GENERAL */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: white;
+  color: black;
+}
+
+/* HEADER */
+header {
+  padding: 20px;
+  background-color: lightgray;
+}
+
+nav a {
+  margin-right: 15px;
+}
+
+/* SECTIONS */
+section {
+  padding: 40px;
+}
+
+/* INTRODUCTION */
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+}
+
+/* PROJECT CARDS */
+.project {
+  border: 1px solid gray;
+  padding: 20px;
+  margin-bottom: 15px;
+}
+
+/* BUTTON */
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  border: 1px solid black;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: lightgray;
+}
+
+/* ADD YOUR OWN CSS BELOW! */
