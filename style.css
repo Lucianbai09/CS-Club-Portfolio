@@ -9,11 +9,26 @@ body {
 /* HEADER */
 header {
   padding: 20px;
-  background-color: rgb(208, 241, 38);
+  
+  background: linear-gradient(to bottom, blue, violet);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  gap: 20px;
 }
 
 nav a {
-  margin-right: 15px;
+  padding: 8px 16px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: red;
 }
 
 /* SECTIONS */
@@ -64,6 +79,7 @@ h2 {
   border: 2px solid blue;
   border-radius: 12px;
   padding: 24px;
+  flex: 1;
 }
 
 .button:hover{
@@ -74,4 +90,19 @@ h2 {
 .profile {
   width: 150px;
   border-radius: 50%;
+}
+
+.project-list {
+  display: flex;
+  gap: 20px;
+}
+
+.socials {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+}
+
+.socials img {
+  width: 40px;
 }
